@@ -8,41 +8,65 @@ body{
 .clr{
 	clear: both;
 }
+
 .container{
-	width: 90%;
+	width: auto;
 	margin: auto;
+	padding: 50px;
+}
+
+.scrollmenu{
+	overflow-x: scroll;
+  	overflow-y: hidden;
+	white-space: nowrap;
+	display: flex;
+}
+
+.picture1{
+	max-width: 100%;
+	height: auto;
+}
+
+.personal{
+	text-align: justify;
+	margin: auto;
+}
+
+.box{
+	flex: 1;
+	display: inline-block;
+	width: auto;
+	min-height: inherit;
+	border:5px solid #2B7A78;
+	padding:10px;
+	margin: 0 5px;
+	box-sizing: content-box;
 }
 
 #head{
 	color: #FEFFFF;
 	background:#3AAFA9;
-	min-height: 650px;
 	overflow: hidden;
+	min-height: fit-content;
+}
+
+#head .container{
+	padding: 50px;
+	align-items: center;
 }
 
 #head h1{
 	text-align: center;
-	font-size: 85px;
+	font-size: 50px;
 	letter-spacing: 1px;
 	line-height: 150%;
 	text-transform: uppercase;
-	padding-top: 75px;
 }
 
 #head h2{
 	text-align: right;
 	color: #17252A
 }
-
-#picture{
-	background-image: url(images/background.jpg);
-	max-width: 100%;
-	max-height: auto;
-	padding: 400px;
-	object-position: center;
-	background-repeat: no-repeat;
-}
-
 
 #main{
 	background: #DEF2F1
@@ -51,21 +75,6 @@ body{
 #main h1{
 	text-decoration: underline;
 	text-align: center;
-}
-
-.personal{
-	text-align: justify;
-	padding: 15px;
-}
-
-.box{
-	float: left;
-	width: 30%;
-	border:5px solid #2B7A78;
-	padding:10px;
-	margin: 0 5px;
-	box-sizing: margin-box;
-
 }
 
 #footer{
