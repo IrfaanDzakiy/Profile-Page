@@ -1,0 +1,23 @@
+{
+  "name": "IF3110-2020-K3-13518145",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrfaanDzakiy/Profile-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrfaanDzakiy/Profile-Page/issues"
+  },
+  "homepage": "https://github.com/IrfaanDzakiy/Profile-Page#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
